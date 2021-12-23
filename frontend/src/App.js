@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
 import Todo from "./components/Todo";
-import Swal from "sweetalert2";
 export default function App() {
   const [tasks, setTasks] = useState([]);
   const [complete, setComplete] = useState(false);
